@@ -1,0 +1,67 @@
+body {
+background-color: rgb(205, 202, 202);
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+justify-content: center;
+border-radius: 10px;
+margin-bottom: 40px;
+}
+/* Si quieres centralizar los encabezados y secciones */
+header { 
+    background-color: #005c66;
+    padding: 0.5rem 5rem;
+    margin: auto;
+    max-width: 100%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+
+
+} 
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    justify-content: center;
+    margin-top: auto;
+}
+/* Ejemplo para que las imágenes no excedan el contenedor */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    text-align: center;
+
+}
+nav a {
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.secciones {
+
+    color: rgb(215, 215, 215);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.tarjeta{
+
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+footer{
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
